@@ -19,7 +19,7 @@ RUN set -x \
 	&& chmod +x /usr/local/bin/gosu \
 	&& gosu nobody true
 
-ENV GHOST_VERSION 0.9.0
+ENV GHOST_VERSION 0.11.4
 ENV GHOST_SOURCE /usr/src/ghost
 WORKDIR $GHOST_SOURCE
 RUN  wget -O ghost.zip "https://ghost.org/archives/ghost-${GHOST_VERSION}.zip" \
