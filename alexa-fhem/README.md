@@ -13,7 +13,7 @@ docker build -t alexa-fhem .
 ## run
 
 ```
-docker run -p 3000:3000 -i --name alexa -t alexa
+docker run -p 3000:3000 -i --name alexa-fhem -t alexa-fhem
 ```
 
 ## configure
